@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/etNombreEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de Evento"/>
+    <EditText
+        android:id="@+id/etInicioEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Hora de inicio de Evento"
+        android:inputType="time"
+        android:focusable="false"
+        android:clickable="false"/>
+    <EditText
+        android:id="@+id/etFinEvento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Hora de fin de Evento"
+        android:inputType="time"
+        android:focusable="false"
+        android:clickable="false"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btAceptarEvento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Aceptar"
+            android:layout_marginEnd="20dp"/>
+        <Button
+            android:id="@+id/btCancelarEvento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Cancelar"/>
+
+    </LinearLayout>
+</LinearLayout>

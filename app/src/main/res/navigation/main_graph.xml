@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.mycompleteaplication.ui.HomeFragment"
+        android:name="com.example.mycompleteaplication.ui.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.example.mycompleteaplication.ui.SettingsFragment"
+        android:name="com.example.mycompleteaplication.ui.settings.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/calendarFragment"
-        android:name="com.example.mycompleteaplication.ui.CalendarFragment"
+        android:name="com.example.mycompleteaplication.ui.calendar.CalendarFragment"
         android:label="fragment_calendar"
         tools:layout="@layout/fragment_calendar" />
     <fragment

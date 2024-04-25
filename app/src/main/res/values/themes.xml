@@ -18,14 +18,13 @@
 
     <style name="Title">
         <item name="android:textStyle">bold</item>
-        <item name="android:textSize">30sp</item>
+        <item name="android:textSize">28sp</item>
         <item name="android:textColor">?attr/colorOnPrimary</item>
     </style>
 
-    <style name="Body" parent="Title">
+    <style name="Body">
         <item name="android:textColor">?attr/colorOnSecondary</item>
-        <item name="android:textStyle">normal</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
     </style>
 
     <style name="Theme.MyCompleteAplication" parent="Base.Theme.MyCompleteAplication" />
